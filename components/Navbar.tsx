@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,13 +16,24 @@ export default function Navbar() {
 
                 <nav className='w-full px-10'>
                     <ul className='text-2xl font-Pirata uppercase flex flex-col gap-4'>
-                        <li className='cursor-pointer'>Home</li>
-                        <li className='cursor-pointer'>Sobre</li>
-                        <li className='cursor-pointer'>Menu</li>
-                        <li className='cursor-pointer'>Galeria</li>
-                        <li className='cursor-pointer'>Contato</li>
+                        <li>
+                            <Link to="main" smooth={true} duration={500} className="cursor-pointer">Home</Link>
+                        </li>
+                        <li>
+                            <Link to="about" smooth={true} duration={500} className="cursor-pointer">Sobre</Link>
+                        </li>
+                        <li>
+                            <Link to="menu" smooth={true} duration={500} className="cursor-pointer">Menu</Link>
+                        </li>
+                        <li>
+                            <Link to="galeria" smooth={true} duration={500} className="cursor-pointer">Galeria</Link>
+                        </li>
+                        <li>
+                            <Link to="contato" smooth={true} duration={500} className="cursor-pointer">Contato</Link>
+                        </li>
                     </ul>
                 </nav>
+
                 <article className='text-center'>
                     <p className='font-Rambla uppercase tracking-wider'>Reservas</p>
                     <p className='font-Pirata text-2xl'>(14) 3652-5982</p>
@@ -34,7 +46,6 @@ export default function Navbar() {
                     {isMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
                 </button>
             </section>
-
 
             {/* Menu lateral deslizante para mobile */}
             <section
@@ -49,11 +60,21 @@ export default function Navbar() {
 
                     <nav className='w-full px-10'>
                         <ul className='text-2xl font-Pirata uppercase'>
-                            <li>Home</li>
-                            <li>Sobre</li>
-                            <li>Menu</li>
-                            <li>Galeria</li>
-                            <li>Contato</li>
+                            <li>
+                                <Link to="main" smooth={true} duration={500} className="cursor-pointer">Home</Link>
+                            </li>
+                            <li>
+                                <Link to="about" smooth={true} duration={500} className="cursor-pointer">Sobre</Link>
+                            </li>
+                            <li>
+                                <Link to="menu" smooth={true} duration={500} className="cursor-pointer">Menu</Link>
+                            </li>
+                            <li>
+                                <Link to="galeria" smooth={true} duration={500} className="cursor-pointer">Galeria</Link>
+                            </li>
+                            <li>
+                                <Link to="contato" smooth={true} duration={500} className="cursor-pointer">Contato</Link>
+                            </li>
                         </ul>
                     </nav>
 

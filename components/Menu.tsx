@@ -36,7 +36,7 @@ const Menu: React.FC = () => {
     }, []); // O array vazio garante que a execução acontece apenas uma vez, na montagem do componente.
 
     return (
-        <section className="lg:ml-[300px] menuBG">
+        <section id="menu" className="lg:ml-[300px] menuBG">
             <div className="bg-black/80 h-full my-20 maxW relative outline">
 
                 <div className="py-20">
