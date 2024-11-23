@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Poppins", sans-serif;
+}
+
+.maxW{
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+/* BACKGROUNDS */
+.mainBG{
+  background-image: url('/mainBG.jpg');
+  height: 100vh;
+  background-position: center;
+}
+
+.menuBG{
+  background-image: url('/menuBG.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contêiner principal */
+.menu-container {
+  background: url('/path-to-background-image.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 50px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Cabeçalho com as categorias */
+.menu-header {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.menu-category {
+  text-align: center;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.menu-category.active,
+.menu-category:hover {
+  color: red;
+}
+
+.menu-icon {
+  font-size: 24px;
+}
+
+.menu-title {
+  display: block;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+
