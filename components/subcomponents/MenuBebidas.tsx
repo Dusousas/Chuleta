@@ -7,7 +7,7 @@ export default function MenuEntrada() {
                 <div className=''>
 
 
-                    <article className="flex gap-x-20 gap-y-10 flex-wrap ">
+                    <article className="flex gap-x-20 gap-y-10 flex-wrap justify-center">
 
                         {/* ITEMS SOLO MENU */}
                         <article className="flex flex-col max-w-[330px]">
@@ -18,6 +18,64 @@ export default function MenuEntrada() {
                             <p className="mt-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
                         </article>
 
+                        {/* ITEMS SOLO MENU */}
+                        <article className="flex flex-col max-w-[330px]">
+                            <div className="flex justify-between border-b border-dashed border-RedP">
+                                <h1 className='text-white'>Bebida 1</h1>
+                                <h2 className='text-white'>30$</h2>
+                            </div>
+                            <p className="mt-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
+                        </article>
+
+                        {/* ITEMS SOLO MENU */}
+                        <article className="flex flex-col max-w-[330px]">
+                            <div className="flex justify-between border-b border-dashed border-RedP">
+                                <h1 className='text-white'>Bebida 1</h1>
+                                <h2 className='text-white'>30$</h2>
+                            </div>
+                            <p className="mt-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
+                        </article>
+
+                        {/* ITEMS SOLO MENU */}
+                        <article className="flex flex-col max-w-[330px]">
+                            <div className="flex justify-between border-b border-dashed border-RedP">
+                                <h1 className='text-white'>Bebida 1</h1>
+                                <h2 className='text-white'>30$</h2>
+                            </div>
+                            <p className="mt-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
+                        </article>
+                        {/* ITEMS SOLO MENU */}
+                        <article className="flex flex-col max-w-[330px]">
+                            <div className="flex justify-between border-b border-dashed border-RedP">
+                                <h1 className='text-white'>Bebida 1</h1>
+                                <h2 className='text-white'>30$</h2>
+                            </div>
+                            <p className="mt-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
+                        </article>
+                        {/* ITEMS SOLO MENU */}
+                        <article className="flex flex-col max-w-[330px]">
+                            <div className="flex justify-between border-b border-dashed border-RedP">
+                                <h1 className='text-white'>Bebida 1</h1>
+                                <h2 className='text-white'>30$</h2>
+                            </div>
+                            <p className="mt-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
+                        </article>
+                        {/* ITEMS SOLO MENU */}
+                        <article className="flex flex-col max-w-[330px]">
+                            <div className="flex justify-between border-b border-dashed border-RedP">
+                                <h1 className='text-white'>Bebida 1</h1>
+                                <h2 className='text-white'>30$</h2>
+                            </div>
+                            <p className="mt-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
+                        </article>
+                        {/* ITEMS SOLO MENU */}
+                        <article className="flex flex-col max-w-[330px]">
+                            <div className="flex justify-between border-b border-dashed border-RedP">
+                                <h1 className='text-white'>Bebida 1</h1>
+                                <h2 className='text-white'>30$</h2>
+                            </div>
+                            <p className="mt-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
+                        </article>
                         {/* ITEMS SOLO MENU */}
                         <article className="flex flex-col max-w-[330px]">
                             <div className="flex justify-between border-b border-dashed border-RedP">
