@@ -26,10 +26,10 @@ export default function Navbar() {
                             <Link to="menu" smooth={true} duration={500} className="cursor-pointer">Menu</Link>
                         </li>
                         <li>
-                            <Link to="galeria" smooth={true} duration={500} className="cursor-pointer">Galeria</Link>
+                            <Link to="galery" smooth={true} duration={500} className="cursor-pointer">Galeria</Link>
                         </li>
                         <li>
-                            <Link to="contato" smooth={true} duration={500} className="cursor-pointer">Contato</Link>
+                            <Link to="contact" smooth={true} duration={500} className="cursor-pointer">Contato</Link>
                         </li>
                     </ul>
                 </nav>

@@ -37,7 +37,7 @@ const Menu: React.FC = () => {
 
     return (
         <section id="menu" className="lg:ml-[300px] menuBG">
-            <div className="bg-black/80 h-full my-20 maxW relative outline">
+            <div className="bg-black/80 h-full maxW relative">
 
                 <div className="py-20">
                     <p className="font-Rambla uppercase tracking-wider text-RedP text-center">Comida Caseira</p>
