@@ -24,7 +24,7 @@ export default function MenuEntrada() {
                                 <h1 className='text-white'>Bebida 1</h1>
                                 <h2 className='text-white'>30$</h2>
                             </div>
-                            <p className="mt-2 text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
+                            <p className="mt-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
                         </article>
 
 

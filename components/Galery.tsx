@@ -17,7 +17,7 @@ export default function Galery() {
 
           <div className='flex items-center gap-2 rounded-lg text-xl bg-RedP py-2 px-6 max-w-[230px] mx-auto' >
             <a className='uppercase font-Pirata tracking-widest text-white' href="https://www.instagram.com/cantodachuleta/">Sabores no Insta</a>
-            <FaInstagram />
+            <FaInstagram className='text-white' />
           </div>
 
         </div>

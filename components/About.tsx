@@ -11,11 +11,11 @@ export default function About() {
                         <p className='mt-6 text-gray-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam beatae dicta placeat sapiente maxime voluptate cumque ad ab, possimus praesentium asperiores officiis odit! Nulla harum maiores molestiae sint numquam facere quis, natus soluta laudantium cumque.</p>
                         <p className='mt-6 text-gray-200'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere dicta harum consequatur molestias repellendus aliquid est accusamus incidunt quidem maiores, corporis doloremque nesciunt voluptates quasi assumenda debitis consequuntur dignissimos dolorum nam! At atque vero vitae temporibus ratione nobis aliquid praesentium!</p>
                         <p className='mt-6 text-gray-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, natus autem? Dolore id quo officiis corrupti, sapiente perferendis ipsa incidunt?</p>
-                        <button className='bg-RedP py-2 px-6 uppercase font-Pirata rounded-lg mt-6 text-xl'>Faça seu pedido</button>
+                        <button className='bg-RedP py-2 px-6 uppercase font-Pirata rounded-lg mt-6 text-xl text-white'>Faça seu pedido</button>
                     </article>
 
                     <article className='mx-auto lg:w-1/2'>
-                            <img className='object-cover w-[600px] h-[600px] border border-RedP text-white' src="about1.png" alt="" />
+                            <img className='object-cover w-[600px] h-[600px] border border-RedP ' src="about1.png" alt="" />
                     </article>
                 </div>
             </section>
