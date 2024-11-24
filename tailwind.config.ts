@@ -17,7 +17,8 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        RedP: "#991B1F"
+        RedP: "#991B1F",
+        GrayP: "#0a0a0a"
       },
     },
   },

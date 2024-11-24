@@ -41,7 +41,7 @@ const Menu: React.FC = () => {
 
                 <div className="py-20">
                     <p className="font-Rambla uppercase tracking-wider text-RedP text-center">Comida Caseira</p>
-                    <h1 className="font-Pirata text-5xl uppercase text-center">Nosso Menu</h1>
+                    <h1 className="font-Pirata text-5xl uppercase text-center text-white">Nosso Menu</h1>
                     {/* Botões de Navegação */}
                     <button
                         className="absolute left-[20px] top-[294px] transform -translate-y-1/2 z-10 bg-red-600 p-3 rounded-full hover:bg-red-700"
@@ -74,7 +74,7 @@ const Menu: React.FC = () => {
                         {menuItems.map((item, index) => (
                             <SwiperSlide key={index}>
                                 <div
-                                    className="flex py-4 flex-col justify-center items-center cursor-pointer hover:bg-red-600/40 hover:rounded-full"
+                                    className="flex py-4 flex-col justify-center items-center cursor-pointer text-white hover:bg-red-600/40 hover:rounded-full"
                                     onClick={() => setActiveMenu(item.title)} // Altera o estado para o menu selecionado
                                 >
                                     <img className="w-[48px]" src={item.icon} alt={item.title} />

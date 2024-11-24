@@ -41,7 +41,7 @@ export default function Navbar() {
             </section>
 
             {/* Botão para abrir o menu no mobile */}
-            <section className='lg:hidden fixed top-0 left-0  text-white py-4 px-6 flex justify-between items-center z-50'>
+            <section className='lg:hidden fixed top-0 left-0  text-RedP py-4 px-6 flex justify-between items-center z-50'>
                 <button onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Abrir menu">
                     {isMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
                 </button>

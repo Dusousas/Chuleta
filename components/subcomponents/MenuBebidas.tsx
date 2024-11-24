@@ -12,17 +12,17 @@ export default function MenuEntrada() {
                         {/* ITEMS SOLO MENU */}
                         <article className="flex flex-col max-w-[330px]">
                             <div className="flex justify-between border-b border-dashed border-RedP">
-                                <h1>Bebida 1</h1>
-                                <h2>30$</h2>
+                                <h1 className='text-white'>Bebida 1</h1>
+                                <h2 className='text-white'>30$</h2>
                             </div>
-                            <p className="mt-2 text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
+                            <p className="mt-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
                         </article>
 
                         {/* ITEMS SOLO MENU */}
                         <article className="flex flex-col max-w-[330px]">
                             <div className="flex justify-between border-b border-dashed border-RedP">
-                                <h1>Bebida 1</h1>
-                                <h2>30$</h2>
+                                <h1 className='text-white'>Bebida 1</h1>
+                                <h2 className='text-white'>30$</h2>
                             </div>
                             <p className="mt-2 text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
                         </article>

@@ -11,66 +11,10 @@ export default function MenuEntrada() {
                         {/* ITEMS SOLO MENU */}
                         <article className="flex flex-col max-w-[330px]">
                             <div className="flex justify-between border-b border-dashed border-RedP">
-                                <h1>Tábua de queijos</h1>
-                                <h2>27$</h2>
+                                <h1 className='text-white'>Tábua de queijos</h1>
+                                <h2 className='text-white'>27$</h2>
                             </div>
-                            <p className="mt-2 text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
-                        </article>
-                        {/* ITEMS SOLO MENU */}
-                        <article className="flex flex-col max-w-[330px]">
-                            <div className="flex justify-between border-b border-dashed border-RedP">
-                                <h1>Tábua de queijos</h1>
-                                <h2>27$</h2>
-                            </div>
-                            <p className="mt-2 text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
-                        </article>
-                        {/* ITEMS SOLO MENU */}
-                        <article className="flex flex-col max-w-[330px]">
-                            <div className="flex justify-between border-b border-dashed border-RedP">
-                                <h1>Tábua de queijos</h1>
-                                <h2>27$</h2>
-                            </div>
-                            <p className="mt-2 text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
-                        </article>
-                        {/* ITEMS SOLO MENU */}
-                        <article className="flex flex-col max-w-[330px]">
-                            <div className="flex justify-between border-b border-dashed border-RedP">
-                                <h1>Tábua de queijos</h1>
-                                <h2>27$</h2>
-                            </div>
-                            <p className="mt-2 text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
-                        </article>
-                        {/* ITEMS SOLO MENU */}
-                        <article className="flex flex-col max-w-[330px]">
-                            <div className="flex justify-between border-b border-dashed border-RedP">
-                                <h1>Tábua de queijos</h1>
-                                <h2>27$</h2>
-                            </div>
-                            <p className="mt-2 text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
-                        </article>
-                        {/* ITEMS SOLO MENU */}
-                        <article className="flex flex-col max-w-[330px]">
-                            <div className="flex justify-between border-b border-dashed border-RedP">
-                                <h1>Tábua de queijos</h1>
-                                <h2>27$</h2>
-                            </div>
-                            <p className="mt-2 text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
-                        </article>
-                        {/* ITEMS SOLO MENU */}
-                        <article className="flex flex-col max-w-[330px]">
-                            <div className="flex justify-between border-b border-dashed border-RedP">
-                                <h1>Tábua de queijos</h1>
-                                <h2>27$</h2>
-                            </div>
-                            <p className="mt-2 text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
-                        </article>
-                        {/* ITEMS SOLO MENU */}
-                        <article className="flex flex-col max-w-[330px]">
-                            <div className="flex justify-between border-b border-dashed border-RedP">
-                                <h1>Tábua de queijos</h1>
-                                <h2>27$</h2>
-                            </div>
-                            <p className="mt-2 text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
+                            <p className="mt-2 text-sm text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, odit!</p>
                         </article>
 
                     </article>
